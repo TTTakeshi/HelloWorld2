@@ -13,7 +13,7 @@ public class HelloWorld extends Activity {
     public void onCreate(Bundle bundle){
         super.onCreate(bundle);
         requestWindowFeature(Window.FEATURE_ACTION_BAR);
-        setContentView(new HelloView(this));
+        setContentView(new HelloView(this)); // コメント
     }
 
 }
